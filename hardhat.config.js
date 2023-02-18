@@ -46,6 +46,7 @@ module.exports = {
     etherscan: {
         apiKey: ETHERSCAN_API_KEY, // 8 : 55 : 49
     },
+    // for hardhat-gas-reporter
     gasReporter: {
         enabled: true,
         currency: "USD",
